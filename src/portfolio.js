@@ -234,7 +234,7 @@ const achievementSection = {
       title: "dbt Certified Developer",
       subtitle:
         "Use dbt to apply engineering principles to analytics infrastructure",
-      image: require("./assets/icons/dbt.svg"),
+      image: require("./assets/images/dbt-logo.png"),
       imageAlt: "dbt",
       footerLink: [
         {
@@ -247,7 +247,7 @@ const achievementSection = {
       title: "Google Cloud Certified - Professional Data Engineer",
       subtitle:
         "Design, build, deploy, monitor, maintain, and secure data processing workloads.",
-      image: require("https://templates.images.credential.net/16590189412502689960209276019161.png"),
+      image: require("./assets/images/google-certification.svg"),
       imageAlt: "Google",
       footerLink: [
         {
