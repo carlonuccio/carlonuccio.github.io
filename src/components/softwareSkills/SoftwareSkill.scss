@@ -29,3 +29,35 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.apache-airflow-className {
+  background-color: currentColor; /* Inherit the parent color */
+  mask-image: url('../../assets/icons/airflow-svgrepo-com.svg');
+  mask-size: cover;  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  display: inline-block; /* Ensures it behaves like an inline element */
+}
+
+.sql-className {
+  background-color: currentColor; /* Inherit the parent color */
+  mask-image: url('../../assets/icons/sql.svg');
+  mask-size: cover;  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  display: inline-block; /* Ensures it behaves like an inline element */
+}
+
+.dbt-className {
+  background-color: currentColor; /* Inherit the parent color */
+  mask-image: url('../../assets/icons/dbt.svg');
+  mask-size: cover;  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  display: inline-block; /* Ensures it behaves like an inline element */
+}
+
+.bigquery-className {
+  background-color: currentColor; /* Inherit the parent color */
+  mask-image: url('../../assets/icons/bigquery.svg');
+  mask-size: cover;  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  display: inline-block; /* Ensures it behaves like an inline element */
+}
