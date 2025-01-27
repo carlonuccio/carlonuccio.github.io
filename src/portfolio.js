@@ -247,7 +247,7 @@ const achievementSection = {
       title: "Google Cloud Certified - Professional Data Engineer",
       subtitle:
         "Design, build, deploy, monitor, maintain, and secure data processing workloads.",
-      image: require("./assets/images/google-certification.svg"),
+      image: require("./assets/images/google-certification.png"),
       imageAlt: "Google",
       footerLink: [
         {
