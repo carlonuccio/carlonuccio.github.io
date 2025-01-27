@@ -161,7 +161,7 @@ const workExperiences = {
       company: "Sky",
       companylogo: require("./assets/images/sky.png"),
       date: "Aug 2020 – Aug 2022",
-      desc: "Developed data pipelines in Palantir Foundry platform, working with the stakeholders to support their data needs"
+      desc: "Developed e2e ML pipelines and data models using Google Cloud Platform Services (Composer, BigQuery) improving performance, accuracy, monitoring and enhancing decision-making capabilities."
     },
     {
       role: "Big Data Engineer",
@@ -231,28 +231,33 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "dbt Certified Developer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Use dbt to apply engineering principles to analytics infrastructure",
+      image: require("./assets/icons/dbt.svg"),
+      imageAlt: "dbt",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
+          url: "https://www.credential.net/bf5dd4bc-9987-4a11-a964-bf94df41308f"
+        }
+      ]
+    },
+    {
+      title: "Google Cloud Certified - Professional Data Engineer",
+      subtitle:
+        "Design, build, deploy, monitor, maintain, and secure data processing workloads.",
+      image: require("https://templates.images.credential.net/16590189412502689960209276019161.png"),
+      imageAlt: "Google",
+      footerLink: [
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Certification",
+          url: "https://www.credential.net/254d5d39-905a-42d3-82e7-162b8e2626b1#acc.2gFXOHpG"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
