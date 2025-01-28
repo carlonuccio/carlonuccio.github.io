@@ -244,6 +244,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Astronomer Certification DAG Authoring for Apache Airflow",
+      subtitle:
+        "Design and create reliable data pipelines following best practices in Apache Airflow",
+      image: require("./assets/images/apache-airflow-certification.png"),
+      imageAlt: "dbt",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/be341efc-064a-4014-9c7e-e18a4cec02fa/public_url"
+        }
+      ]
+    },
+    {
       title: "Google Cloud Certified - Professional Data Engineer",
       subtitle:
         "Design, build, deploy, monitor, maintain, and secure data processing workloads.",
